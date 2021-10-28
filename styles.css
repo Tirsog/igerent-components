@@ -1,0 +1,157 @@
+
+:root{
+    /*Variables Color*/
+    --white_bg: #fff;
+    --text_white: $white_bg;
+    --black: #000;
+    --text_gery: #999;
+    --dark_bg: #2b3e4d;
+    --dark_nav_bg: #2b3e4d;
+    --text-dark_blue: --dark_nav_bg;
+    --light_nav_bg: #2c3e4e;
+    --dark_orng: #e08302;
+    --text_dark_orng: #de7f02;
+    --text-dark_blue: --dark_nav_bg;
+    --link_color: #0064a8;
+    --link_h_color: --dark_bg;
+    --link_sec_color: #0064a8;
+    --link_sech_color: #358bc2;
+    --sep_color: #ccc;
+    --inpt_sep: --sep_color;
+    --sec_bg: #fff;
+    --inpt_bg: --sec_bg;
+    --light_orng: #ffeed4;
+    --light_grey_color: #eee;
+    --bck_bg_color: #7692a3;
+    --dark_grey_color: #e2e6ef;
+    --bg_color_1: #f7f9fa;
+    --bg_color_2: #2b3d4e;
+    --gray_bg: #e6e6e6;
+    --secondary: #307ee1;
+    
+    /*Message*/
+    --error: #f8d7da;
+    --error_br: #f5c6cb;
+    --error_txt: #721c24;
+    --status: #d4edda;
+    --status_br: #c3e6cb;
+    --status_txt: #155724;
+    --warning: #fff3cd;
+    --warning_br: #ffeeba;
+    --warning_txt: #856404;
+    
+    /*Fonts*/
+    --base-font-family: 'Roboto', sans-serif !default;
+    --primary_font-family: 'Poppins', sans-serif;
+    --secondary_font-family: 'Open Sans', sans-serif;
+    
+    /*pen sans fonts*/
+    --open-sans: 'Open Sans';
+    --open-sans-bold: 'OpenSans-Bold';
+    --open-sans-bold: 'OpenSans-Bold';
+    --open-sans-italic: 'OpenSans-Italic';
+    --open-sans-light: 'OpenSans-Light';
+    --open-sans-regular: 'OpenSans-Regular';
+    --open-sans-semibold: 'OpenSans-SemiBold';
+    }
+    
+    *{
+        padding: 0px;
+        margin: 0px
+    }
+ /*Color Palette*/
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0.5em;
+    gap: 30px;
+}
+.box1{
+    height: 150px;
+    width: 150px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px;
+    background-color: var(--dark_orng);
+    color: #fff;
+}
+.box2{
+    height: 150px;
+    width: 150px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px;
+    background-color: var(--secondary);
+    color: #fff;
+}
+.box3{
+    height: 150px;
+    width: 150px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px;
+    background-color: var(--dark_bg);
+    color: #fff;
+}
+.box4{
+    height: 150px;
+    width: 150px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px;
+    background-color: var(--black);
+    color: #fff;
+}
+.box5{
+    height: 150px;
+    width: 150px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px;
+    background-color: #F6DF8B;
+    color: var(--black);
+}
+.box6{
+    height: 150px;
+    width: 150px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px;
+    background-color: var(--light_orng);
+    color: var(--black);
+}
+.box7{
+    height: 150px;
+    width: 150px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px;
+    background-color: var(--light_grey_color);
+    color: var(--black);
+}
+.box8{
+    height: 150px;
+    width: 150px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px;
+    background-color: var(--bck_bg_color);
+    color: #fff;
+}
+
+
+ /*Buttons*/
+ 
+    .orangebttn{
+        padding: 10px;
+        border-radius: 4px;
+        background-color:var(--dark_orng);
+        border: transparent;
+        color: white;
+        font-size: 1.1em;
+        font-family: roboto,sans-serif;
+    }
+    .button1:hover{
+        background-color:var(--text_dark_orng);
+    }
