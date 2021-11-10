@@ -139,19 +139,3 @@
     background-color: var(--bck_bg_color);
     color: #fff;
 }
-
-
- /*Buttons*/
- 
-    .orangebttn{
-        padding: 10px;
-        border-radius: 4px;
-        background-color:var(--dark_bg);
-        border: transparent;
-        color: var(--white_bg);
-        font-size: 1.1em;
-        font-family: roboto,sans-serif;
-    }
-    .button1:hover{
-        background-color:var(--text_dark_orng);
-    }
