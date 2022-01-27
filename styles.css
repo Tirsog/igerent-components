@@ -59,6 +59,10 @@
         padding: 0px;
         margin: 0px
     }
+    body{
+        padding-left: 40px;
+        padding-top: 20px;
+    }
  /*Color Palette*/
 .container{
     display: flex;
